@@ -17,7 +17,7 @@ const Countries = ({ countriesPromise }) => {
     const handleVisitedCountries = (country) => {
         // console.log('country visited' country)
         const newVisitedCountries = [...visitedCountries, country];
-        setVisitedCountries(newVisitedCountries);
+       setVisitedCountries(newVisitedCountries)
 
     }
     // console.log(countries);
